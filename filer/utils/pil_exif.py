@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-from __future__ import absolute_import
-
 from django.core.files.storage import default_storage as storage
 
 from ..utils.compatibility import PILExifTags, PILImage

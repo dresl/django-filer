@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-from __future__ import absolute_import
-
 from django.http import Http404
 from django.shortcuts import get_object_or_404, redirect
 

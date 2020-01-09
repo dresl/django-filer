@@ -11,8 +11,6 @@ This code has been copied from Django 1.9.4.
 At all locations where something has been changed, there are inline comments
 in the code.
 """
-from __future__ import absolute_import
-
 from collections import defaultdict
 
 from django.contrib.admin.utils import quote
