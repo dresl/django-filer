@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from __future__ import absolute_import, unicode_literals
+from __future__ import absolute_import
 
 from django.conf import settings
 from django.contrib.auth import models as auth_models
@@ -7,7 +7,6 @@ from django.core.exceptions import ValidationError
 from django.db import models
 from django.db.models import Q
 from django.urls import reverse
-from django.utils.encoding import python_2_unicode_compatible
 from django.utils.http import urlquote
 from django.utils.translation import ugettext_lazy as _
 
@@ -83,7 +82,6 @@ class FolderPermissionManager(models.Manager):
         return allow_list - deny_list
 
 
-@python_2_unicode_compatible
 class Folder(models.Model, mixins.IconsMixin):
     """
     Represents a Folder that things (files) can be put into. Folders are *NOT*
@@ -261,7 +259,6 @@ except mptt.AlreadyRegistered:
     pass
 
 
-@python_2_unicode_compatible
 class FolderPermission(models.Model):
     ALL = 0
     THIS = 1
