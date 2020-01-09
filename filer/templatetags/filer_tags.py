@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import math
+import six
 
 from django.template import Library
-from django.utils import six
 
 
 register = Library()

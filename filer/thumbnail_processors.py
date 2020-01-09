@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import re
-
-from django.utils import six
+import six
 
 from easy_thumbnails import processors
 

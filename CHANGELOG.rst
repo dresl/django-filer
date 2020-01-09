@@ -7,6 +7,7 @@ CHANGELOG
 ==================
 
 * Added Django 3.0 support
+* Added support for Python 3.8
 * Dropped Python 2 support
 
 

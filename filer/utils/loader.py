@@ -8,9 +8,9 @@ local changes:
   or method.
 
 """
-from importlib import import_module
+import six
 
-from django.utils import six
+from importlib import import_module
 
 
 def load_object(import_path):
